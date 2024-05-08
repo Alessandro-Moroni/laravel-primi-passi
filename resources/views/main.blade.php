@@ -15,7 +15,7 @@
         <h1 class="text-center">Welcome to {{$name}}</h1>
 
         <h3 class="text-center">
-            <a href="http://127.0.0.1:8000">
+            <a href="{{route('homepage')}}">
                 Back to {{$home}}
             </a>
         </h3>

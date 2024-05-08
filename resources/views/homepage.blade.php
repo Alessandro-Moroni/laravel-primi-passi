@@ -19,19 +19,19 @@
                 <ul class="d-flex justify-content-between ">
 
                     <li class="list-group">
-                        <a href="http://127.0.0.1:8000/header">
+                        <a href="{{route('header')}}">
                             {{$header}}
                         </a>
                     </li>
 
                     <li class="list-group">
-                        <a href="http://127.0.0.1:8000/main">
+                        <a href="{{route('main')}}">
                             {{$main}}
                         </a>
                     </li>
 
                     <li class="list-group">
-                        <a href="http://127.0.0.1:8000/footer">
+                        <a href="{{route('footer')}}">
                             {{$footer}}
                         </a>
                     </li>
